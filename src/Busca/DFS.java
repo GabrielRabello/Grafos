@@ -1,4 +1,4 @@
-package Search;
+package Busca;
 
 import Auxiliar.Cor;
 import Grafos.GrafoLAdj;
@@ -11,7 +11,8 @@ import java.util.Map;
  * Data: 09/05/2023                     Atividades 5 e 6
  */
 
-public class DFS {
+public class DFS
+{
     private final GrafoLAdj G;
     private final Map<Integer, Cor> cor;
     private final Map<Integer, Integer> antecessor;
@@ -51,7 +52,8 @@ public class DFS {
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         var s = new StringBuilder();
         for (var x : this.G.vertices()) {
             s.append("Vértice ").append(x).append(": ");

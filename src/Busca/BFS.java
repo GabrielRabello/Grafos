@@ -1,4 +1,4 @@
-package Search;
+package Busca;
 
 import Auxiliar.Cor;
 import Grafos.GrafoLAdj;
